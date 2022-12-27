@@ -20,3 +20,10 @@ Route::get('/', function () {
 Route::get('/home', function (){
    return view('home');
 });
+
+Route::get('/empresas', function (){
+   return view('empresas');
+});
+Route::get('/editar', function (){
+   return view('editar');
+});
